@@ -13,22 +13,16 @@
     "ReplicatedStorage": {
       "$path": "services/ReplicatedStorage.project.json",
 
-      "DevPackages": { "$path": "../DevPackages" },
-      "Scripts": { "$path": "../scripts" },
-      "Tests": { "$path": "components/SharedTests.project.json" }
+      "DevPackages": { "$path": "../DevPackages" }
     },
     "ServerScriptService": {
-      "$path": "services/ServerScriptService.project.json",
-      
-      "Tests": { "$path": "components/ServerTests.project.json" }
+      "$path": "services/ServerScriptService.project.json"
     },
     "StarterPlayer": {
       "$path": "services/StarterPlayer.project.json",
 
       "StarterPlayerScripts": {
-        "$path": "services/StarterPlayerScripts.project.json",
-
-        "Tests": { "$path": "components/ClientTests.project.json" }
+        "$path": "services/StarterPlayerScripts.project.json"
       }
     },
     "TextChatService": { "$path": "services/TextChatService.project.json" }
